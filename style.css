@@ -7,7 +7,7 @@ body {
     background: linear-gradient(90deg, rgb(0, 0, 0) 0%, rgb(91, 0, 133) 50%, rgb(160, 64, 64) 100%);
 }
 form {
-    background-color: rgb(65, 64, 58);
+    background-color: rgb(255, 217, 0);
     padding-bottom: 100px;
     border-radius: 30px;
     box-shadow: 0 4px 8px rgba(15, 0, 0, 0.2);
@@ -41,12 +41,23 @@ select {
     width: 100%;
 }
 
+header{
+    display:block;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    
+}
+img{
+    width: 40%;
+}
+
 button {
     padding: 10px;
     border: none;
     border-radius: 4px;
     background-color: #5400c2;
-    color: white;
+    color: rgb(0, 0, 0);
     cursor: pointer;
     width: 70%;
 }
@@ -64,7 +75,7 @@ button:hover {
 }
 input{
     padding: 8px;
-    border: 1px solid #ccc;
+    border: 1px solid rgb(125, 0, 163);
     border-radius: 4px;
     width: 95%;
 }

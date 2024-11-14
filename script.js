@@ -2,6 +2,7 @@ const apikey = '0bc06fba9f3d118aa0a4ffe8';
 const apiURL = `https://v6.exchangerate-api.com/v6/${apikey}/latest/`;
 
 async function getExchangeRate(daMoeda, paraMoeda){
+    //Esta função (getExchangeRate) é responsável por buscar a taxa de câmbio entre duas moedas, utilizando uma API de câmbio.
     try{
         const response = await fetch(`${apiURL}${daMoeda}`);
         const data = await response.json();
@@ -13,6 +14,7 @@ async function getExchangeRate(daMoeda, paraMoeda){
     }catch (error){
         console.error("Erro;", error);
         return null;
+        
     }
 }
 //###########

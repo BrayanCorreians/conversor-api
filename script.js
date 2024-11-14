@@ -42,4 +42,6 @@ if(exchangerRate){
 
 });
 
+//Terminado. espero que goste :)
+
 

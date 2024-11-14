@@ -137,6 +137,7 @@ Este código permite que o usuário insira um valor e selecione as moedas de ori
 ## COMO USAR
 1. Selecione a moeda de origem e destino BRL, EUR, USD E EUR.
 2. Insira o valor que deseja converter e tera o valor convertido.
+3. 
 
  
  

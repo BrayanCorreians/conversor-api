@@ -36,7 +36,7 @@ if(exchangerRate){
     const conversao = document.getElementById('conversao');
     conversao.textContent = `resultado: ${convertedValue.toFixed(2)} ${paraMoeda}`
 }
-
+//este trecho do código configura um evento para processar a conversão de moedas quando o formulário de conversão é enviado.
 
 });
 

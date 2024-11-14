@@ -45,14 +45,14 @@ button {
     padding: 10px;
     border: none;
     border-radius: 4px;
-    background-color: #28a745;
+    background-color: #5400c2;
     color: white;
     cursor: pointer;
     width: 70%;
 }
 
 button:hover {
-    background-color: #218838;
+    background-color: #8600f3;
 }
 
 #limpar button {

@@ -41,24 +41,3 @@ if(exchangerRate){
 });
 
 
-//Conversão simple de moeda
-/*
-let valorConvertido;
-if(daMoeda === paraMoeda){
-    valorConvertido = valor;
-    console.log("receba")
-}else{
-    valorConvertido = valor * exchangeRates[daMoeda][paraMoeda];
-}
-
-const conversao = document.getElementById('conversao');
-conversao.textContent = `Resultado: ${valorConvertido.toFixed(2)} ${paraMoeda}`;
-
- // Definir taxas de câmbio fixas
- const exchangeRates = {
-    USD: { BRL: 5.70, EUR: 0.93 },
-    BRL: { USD: 0.18, EUR: 0.16 },
-    EUR: { USD: 1.08, BRL: 6.16 },
-    JPY: { USD: 1.08, EUR: 6.16 }
-};
-*/
